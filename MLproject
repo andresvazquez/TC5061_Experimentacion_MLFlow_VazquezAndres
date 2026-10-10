@@ -1,0 +1,12 @@
+name: medical-cost
+
+python_env: python_env.yaml
+
+entry_points:
+  main:
+    parameters:
+      fit_intercept: {type: int, default: 1}
+      positive: {type: int, default: 0}
+      tol: {type: float, default: 0.000001}
+      seed: {type: int, default: 42}
+    command: "python -m medical_cost.modeling.train --fit_intercept {fit_intercept} --positive {positive} --tol {tol} --seed {seed}"
