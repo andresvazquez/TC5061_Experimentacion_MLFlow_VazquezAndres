@@ -1,0 +1,8 @@
+Modelo: LinearRegression
+fit_intercept: True
+positive: False
+tol: 1e-06
+seed: 42
+RMSE: 5956.34
+MAE: 4177.05
+R2: 0.8069

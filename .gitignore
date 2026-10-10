@@ -195,10 +195,8 @@ cython_debug/
 # Entorno virtual del proyecto
 venv3.13/
 
-# MLflow y salidas generadas por las corridas
+# MLflow y registros generados por las corridas
 mlflow.db
 mlruns/
 mlartifacts/
-reports/*.txt
-reports/figures/*.png
 .ruff_cache/
